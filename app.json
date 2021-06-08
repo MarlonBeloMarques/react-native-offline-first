@@ -1,0 +1,12 @@
+{
+  "name": "react-native-offline-first",
+  "displayName": "react-native-offline-first",
+  "expo": {
+    "name": "react-native-offline-first",
+    "slug": "react-native-offline-first",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
