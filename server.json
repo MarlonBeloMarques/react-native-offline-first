@@ -1,0 +1,46 @@
+{
+  "feed": [
+    {
+      "id": 1,
+      "description": "Lorem ipsum proin dictumst donec sed taciti tellus, tincidunt habitasse sociosqu mauris ornare venenatis, tempus mauris ullamcorper bibendum quisque pulvinar. ",
+      "price": "R$ 800",
+      "authorId": 1
+    },
+    {
+      "id": 2,
+      "description": "Lorem ipsum praesent odio tempus taciti id purus, feugiat quisque nullam mauris dapibus erat, ullamcorper fermentum fusce hac ac venenatis. ",
+      "price": "R$ 600",
+      "authorId": 2
+    },
+    {
+      "id": 3,
+      "description": "Lorem ipsum commodo venenatis gravida donec ultrices mi, cubilia rutrum blandit mauris felis urna, metus odio tortor rutrum aliquam consequat",
+      "price": "R$ 400",
+      "authorId": 3
+    },
+    {
+      "id": 4,
+      "description": "Lorem ipsum tincidunt lobortis nisl metus erat odio blandit urna hendrerit, quisque taciti suscipit leo dui ante posuere luctus semper. ",
+      "price": "R$ 200",
+      "authorId": 4
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "marlonmarqs"
+    },
+    {
+      "id": 2,
+      "name": "maqtheus"
+    },
+    {
+      "id": 3,
+      "name": "kika"
+    },
+    {
+      "id": 4,
+      "name": "miguel"
+    }
+  ]
+}
