@@ -23,6 +23,12 @@
       "description": "Lorem ipsum tincidunt lobortis nisl metus erat odio blandit urna hendrerit, quisque taciti suscipit leo dui ante posuere luctus semper. ",
       "price": "R$ 200",
       "authorId": 4
+    },
+    {
+      "id": 5,
+      "description": "Lorem ipsum tincidunt.",
+      "price": "R$ 800",
+      "authorId": 4
     }
   ],
   "authors": [

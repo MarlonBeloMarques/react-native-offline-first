@@ -1,21 +1,24 @@
-import { StatusBar } from 'expo-status-bar';
+import { offline } from '@redux-offline/redux-offline';
+import offlineConfig from '@redux-offline/redux-offline/lib/defaults';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView, StatusBar } from 'react-native';
+import { Provider } from 'react-redux';
+import { createStore, StoreCreator } from 'redux';
+import FeedListContainer from './src/containers/FeedListContainer';
+import reducer from './src/store/reducers'
 
 export default function App() {
+
+  const createOffline : StoreCreator = offline(offlineConfig);
+
+  const store = createStore(reducer, createOffline);
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Provider store={store}>
+      <StatusBar barStyle="dark-content" />
+      <SafeAreaView>
+        <FeedListContainer />
+      </SafeAreaView>
+    </Provider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
